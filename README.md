@@ -6,10 +6,20 @@ These slides make use of [reveal.js](https://revealjs.com).
 
 ## Run it Locally
 
-It can be helpful to run these slides locally for viewing. Since the index
-file is set to reference the ready-to-use files in our submodule directory
-(`revealjs`), you merely need to open [index.html](./index.html) in your
-browser from your local clone of the repository.
+It can be helpful to run these slides locally for viewing. 
+
+
+For simple slides formatted within [index.html](./index.html), you merely need
+to open [index.html](./index.html) in your browser from your local clone of 
+the repository.
+
+However, if you are using external Markdown files, you'll need to run a server.
+See [./docs/server.md](./docs/server.md) for more information on installing
+these dependencies.
+
+```sh
+bundle exec jekyll serve
+```
 
 ## Setup
 
