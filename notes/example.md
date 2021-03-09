@@ -21,4 +21,4 @@ let c = x => 1 + 2 + x;
 c(3);
 ```
 
-Notes: These are **speaker notes**!
+Note: These are **speaker notes**!
